@@ -1,0 +1,44 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/maxwe/Desktop/Finite-Impulse-Response-Filter-dvrk/fir/fir_tb_isim_beh.exe -prj C:/Users/maxwe/Desktop/Finite-Impulse-Response-Filter-dvrk/fir/fir_tb_beh.prj work.fir_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/maxwe/Desktop/Finite-Impulse-Response-Filter-dvrk/fir/ipcore_dir/filter.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+WARNING:HDLCompiler:687 - "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" Line 5: Illegal redeclaration of module <glbl>.
+Parsing VHDL file "C:/Users/maxwe/Desktop/Finite-Impulse-Response-Filter-dvrk/fir/fir_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module glbl
+Compiling module FDE
+Compiling module SRLC16E
+Compiling module INV
+Compiling module LUT3(INIT=8'b01010010)
+Compiling module LUT4(INIT=16'b0101001101010)
+Compiling module LUT5(INIT=32'b010101010011010101...
+Compiling module LUT6(INIT=64'b010101010101010100...
+Compiling module FD
+Compiling module LUT2(INIT=4'b01)
+Compiling module DSP48A1(B0REG=1,CARRYINREG=0,CAR...
+Compiling module FDRE
+Compiling module GND
+Compiling module VCC
+Compiling module XORCY
+Compiling module MUXCY
+Compiling module FDS
+Compiling module FDR
+Compiling module filter
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package textio
+Compiling package std_logic_textio
+Compiling package vl_types
+Compiling architecture behavior of entity fir_tb
+Time Resolution for simulation is 1ps.
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\fir_tb_isim_beh.exe.sim\libPortability.dll".
+Compiled 7 VHDL Units
+Compiled 54 Verilog Units
+Built simulation executable C:/Users/maxwe/Desktop/Finite-Impulse-Response-Filter-dvrk/fir/fir_tb_isim_beh.exe
+Fuse Memory Usage: 46500 KB
+Fuse CPU Usage: 952 ms

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/maxwe/Desktop/Finite-Impulse-Response-Filter-dvrk/fir/fir_tb_isim_beh.exe" -prj "C:/Users/maxwe/Desktop/Finite-Impulse-Response-Filter-dvrk/fir/fir_tb_beh.prj" "work.fir_tb" "work.glbl" 

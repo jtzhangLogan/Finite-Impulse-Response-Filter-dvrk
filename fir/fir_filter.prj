@@ -1,0 +1,2 @@
+verilog work "ipcore_dir/filter.v"
+verilog work "fir.v"
